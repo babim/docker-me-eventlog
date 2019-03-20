@@ -2,6 +2,7 @@ FROM babim/oraclelinuxbase:7
 ENV SOFT	EventLog
 ENV EDITTION	pro
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
+ENV FIXED	true
 
 # install depend
 RUN yum install wget -y
