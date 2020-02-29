@@ -22,4 +22,4 @@ VOLUME ["${SOFT_HOME}"]
 EXPOSE 8400 513/tcp 514/tcp 513/udp 514/udp
 
 CMD ["/usr/sbin/init"]
-ENTRYPOINT ["/docker-entrypoint.sh"]
+#ENTRYPOINT ["/docker-entrypoint.sh"]
