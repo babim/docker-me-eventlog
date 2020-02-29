@@ -7,7 +7,7 @@ docker run --detach --publish 8400:8400 babim/eventlog:latest
 ```
 ```
 volume:
-/opt/ManageEngine/EvenLog
+/opt/ManageEngine
 port:
 8400 513/tcp 514/tcp 513/udp 514/udp
 ```
