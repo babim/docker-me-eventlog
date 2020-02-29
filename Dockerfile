@@ -3,6 +3,7 @@ ENV SOFT	EventLog
 ENV EDITTION	pro
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 ENV FIXED	true
+ENV MANUAL	true
 
 # download option
 RUN yum install curl -y && \
@@ -19,4 +20,5 @@ VOLUME ["${SOFT_HOME}"]
 # Expose default HTTP connector port.
 EXPOSE 8400 513/tcp 514/tcp 513/udp 514/udp
 
+CMD ["/usr/sbin/init"]
 ENTRYPOINT ["/docker-entrypoint.sh"]
