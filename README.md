@@ -11,3 +11,6 @@ volume:
 port:
 8400 513/tcp 514/tcp 513/udp 514/udp
 ```
+
+run manual with CMD /usr/sbin/init and download, install apps
+change to CMD default after install apps
